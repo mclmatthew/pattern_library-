@@ -1,0 +1,108 @@
+/*-------- CSS Reset ------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*---------- MAIN STYLING ----------*/
+body {
+    background: #fafafa;
+    color: #333;
+    font-family: linotype-sabon, sans-serif;
+    font-style: normal;
+}
+
+header,
+section {
+    max-width: 600px;
+    margin: auto;
+}
+
+header {
+    margin: 7em auto;
+}
+
+/*------------------- NAVIGATION ------------------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 1em 0;
+    font-size: 0.85em;
+    box-shadow: 0 0 10px 0 black;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a:link {
+    color: #333;
+}
+
+nav a:visited {
+    color: #333;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #c06;
+    transition: all 0.3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 2.827em;
+}
+
+h2 {
+    font-size: 1.999em;
+}
+
+h3 {
+    font-size: 1.414em;
+}
+
+p,
+blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.4;
+}
+
+/*------- ADAPTED CONTENT FOR DARK BACKGROUND ------------*/
+
+.dark {
+    background: #00515b;
+    color: #fafafa;
+    padding: 3em 0;
+}
+
+
+.dark hr {
+    margin: 2em 0;
+    height: 1px;
+    background-color: #fafafa;
+    color: #fafafa;
+    border: 0 none
+}
